@@ -21,9 +21,8 @@ func main() {
 	r := router.Router()
 	fmt.Println("Server is getting started...")
 	clientUrl1 := os.Getenv("CLIENTURL1")
-	clientUrl2 := os.Getenv("CLIENTURL2")
 	corsHandler := cors.New(cors.Options{
-		AllowedOrigins:   []string{clientUrl1, clientUrl2},
+		AllowedOrigins:   []string{clientUrl1},
 		AllowedMethods:   []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
 		AllowedHeaders:   []string{"*"},
 		AllowCredentials: true,
