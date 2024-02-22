@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+@layer components{
+    .card_back{
+        @apply bg-hero-pattern bg-cover w-40 h-64 flex items-center justify-center  shadow-[-3px_3px_5px_#00000045] rounded-lg  absolute;
+    }
+    .card_front{
+        @apply w-40 h-64 flex items-center justify-center  shadow-[-3px_3px_5px_#00000045] rounded-lg absolute bg-gray-50;
+    }
+  }
