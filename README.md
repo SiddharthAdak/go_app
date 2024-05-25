@@ -1,6 +1,6 @@
 # DESCRIPTION
 
-The assignment for the Full Stack Developer Intern role involves the development of a web application using React.js, Go Lang and Redis database.
+A simple card game made using React.js, Go Lang and Redis database.
 
 ## Running locally    
 
